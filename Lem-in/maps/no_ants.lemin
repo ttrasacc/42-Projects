@@ -1,0 +1,46 @@
+0
+##start
+//====--rooms--====//
+ENTREE 11 11
+c2 22 22
+c3 33 33
+c4 44 44
+c5 55 55
+c6 66 66
+c7 77 77
+c8 88 88
+c9 99 99
+c10 10 10
+c11 111 111
+c12 12 12
+c13 13 13
+c14 14 14
+c15 15 15
+c16 16 16
+c17 17 17
+##end
+SORTIE 18 18
+//====--pipes--====//
+ENTREE-c2
+ENTREE-c11
+ENTREE-c17
+c2-c3
+c2-c4
+c3-c5
+c4-c6
+c5-c7
+c6-c7
+c7-c8
+c7-c9
+c7-c10
+c9-c10
+c11-c12
+c12-c13
+c10-SORTIE
+c12-c15
+c13-c14
+c14-c15
+c15-c16
+c15-SORTIE
+c16-SORTIE
+c17-c16
